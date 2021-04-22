@@ -24,7 +24,7 @@ Our visualization goal and design are motivated by the impact social media with 
 
 ### Text
 
-The notebook containing the complete user posts and comments EDA can be found [here](https://github.com/com-480-data-visualization/data-visualization-project-2021-jin-juice/blob/master/eda/milestone1_hashtags_and_text.ipynb).
+The notebook containing the complete user posts and comments EDA can be found [here](https://github.com/com-480-data-visualization/data-visualization-project-2021-jin-juice/blob/master/eda/milestone1_hashtags_and_terms.ipynb).
 
 ![Top hashtags](./top_hashtags.png "Top Hashtags")
 
