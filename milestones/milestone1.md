@@ -28,7 +28,7 @@ Exploration of the Parler dataset.
 
 ### Geodata
 
-Exploration of the metadata included in videos uploaded to Parler.
+Exploration of the metadata included in videos uploaded to Parler, done in a [Jupyter Notebook](eda/milestone1_geodata.ipynb).
 
 ## Related Work
 
