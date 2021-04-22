@@ -28,10 +28,16 @@ Exploration of the Parler dataset.
 
 ### Geodata
 
-Exploration of the metadata included in videos uploaded to Parler, done in a [Jupyter Notebook](eda/milestone1_geodata.ipynb).
+Exploration of the metadata included in videos uploaded to Parler is done in [this Jupyter Notebook](eda/milestone1_geodata.ipynb). We have location data for 68'284 videos, most of which were taken between 2020 and January 10th, 2021. We find 1225 videos taken around Washington D.C., on the day of the Capitol attack.
 
 ## Related Work
 
-Pro Publica sorted videos taken near the Capitol during the attacks, and [displayed them](https://projects.propublica.org/parler-capitol-videos/) in a neat timeline.
+Due to the importance of the events captured in our dataset, a large amount of work already covers the Capitol riots.
+* concentrate on the events that happened during the day, not looking at how Parler evolved over time and the content of the dataset
+* they want videos and maps, not NLP analysis
 
 The [SMAT app](https://www.smat-app.com/) allows to search term frequency in different social networks, including Parler.
+
+A large amount of work was done around the videos of the Capitol attack posted to Parler.
+
+* Pro Publica sorted videos taken near the Capitol during the attacks, and [displayed them](https://projects.propublica.org/parler-capitol-videos/) in a neat timeline.
