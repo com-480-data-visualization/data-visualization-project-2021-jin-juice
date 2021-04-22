@@ -14,7 +14,11 @@ The entire dataset is very clean, and requires little to no pre-processing.
 
 ## Problematic
 
-Illustrate the echo chamber that was the Parler social network, and how it led to the attack on the American Capitol building on Januray the 6th, 2021.
+In this project, we intend to visualize how the events leading up to and including the Capitol Raid on January 6th 2020 are reflected by the posts, comments and users on Parler which became an echo chamber for right-wing extremists repeating their leaders’ statements. We would like to show how their numbers and content evolved over time and around which particular dates we can identify meaningful spikes and map them to political events which acted as catalysts. In addition to that, we aim at identifying the ‘hottest’ topics at a given time point, captured by popular hashtags and terms present in the posts and comments’ bodies and their evolution.
+
+The second part of the project will focus on displaying a map with a heatmap overlay of the videos posted to Parler, to highlight the primary locations at which they were taken. Different views will be available for different points in time, as selected on a time bar, in order to illustrate how the locations evolve in time and whether the concentration of posts migrated to the geographical proximity of the political events e.g. the capitol. The heatmap will show media content widgets on hover allowing for the visualization of specific posts.
+
+Our visualization goal and design are motivated by the impact social media with permissive censorship regulations can have in terms of political polarization and crime which can lead to unforeseen negative real life repercussions. This polarization effect is the result of targeted advertisements and recommendations based on the users’ profile features, whose main effect is intended to be economical in terms of “offering the user what they like”, but often has the tragic side-effect of depriving people of the bigger picture, open mindedness and critical thinking. We believe this is a highly interesting topic since the majority of us use and are vulnerable to the hidden traps of social media, as well as the responsibility that comes with the lack of reasonable censorship.
 
 ## Exploratory Data Analysis
 
