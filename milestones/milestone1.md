@@ -40,12 +40,10 @@ Exploration of the metadata included in videos uploaded to Parler is done in [th
 
 ## Related Work
 
-Due to the importance of the events captured in our dataset, a large amount of work already covers the Capitol riots.
-* concentrate on the events that happened during the day, not looking at how Parler evolved over time and the content of the dataset
-* they want videos and maps, not NLP analysis
+Due to the importance of the events captured in our dataset, a large amount of work already covers the Capitol riots. The content of the social network, on the other hand, seems to be ignored a bit more. The [SMAT app](https://www.smat-app.com/) allows to search term frequency in different social networks, including Parler.
 
-The [SMAT app](https://www.smat-app.com/) allows to search term frequency in different social networks, including Parler.
-
-A large amount of work was done around the videos of the Capitol attack posted to Parler.
+Many newspapers have investigated the videos of the Capitol riots posted to Parler. Quite a few websites were also created to view the videos captured and categorize them either through time or through location. We want to mix the two, and have an interactive map that evolves over time.
 
 * Pro Publica sorted videos taken near the Capitol during the attacks, and [displayed them](https://projects.propublica.org/parler-capitol-videos/) in a neat timeline.
+* A website called [Capitol Map](https://capitolmap.com) was set up which allows users to select videos based on their location and view them.
+* The [parlervid](https://parlervid.herokuapp.com) websites which maps the videos, and allows to restrict the dates of the videos shown, as well as filtering the ones containing a user ID.
