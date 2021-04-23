@@ -10,7 +10,7 @@ The second part provides information about Parler users, such as their biography
 
 The last dataset we use contains metadata taken from videos posted to Parler. It was compiled and [posted to GitHub](https://gist.github.com/kylemcdonald/8fdabd6526924012c1f5afe538d7dc09) from the main Parler dataset. For each video included, it contains the time at which the video was created, the latitude and longitude where it was taken, and a unique ID. This unique ID can be used to obtain the video from an [archive of Parler](https://ddosecrets.com/wiki/Parler). Example: To download the video with ID `abcdef`, follow the URL `https://s3.wasabisys.com/ddosecrets-parler/abcdef`. Add the `mp4` extension to the downloaded file, and it can be watched.
 
-The entire dataset is very clean, and requires little to no pre-processing.
+The entire dataset is very clean, and requires little to no pre-processing. Because the dataset is very large, we clean it by removing columns we don't need, and filter the dataset to only contain posts from 2020 and 2021.
 
 ## Problematic
 
@@ -24,7 +24,7 @@ Our visualization goal and design are motivated by the impact social media with 
 
 ### Text
 
-The notebook containing the complete user posts and comments EDA can be found [here](https://github.com/com-480-data-visualization/data-visualization-project-2021-jin-juice/blob/master/eda/milestone1_hashtags_and_terms.ipynb).
+For our exploratory data analysis, we work on a subset of the data so that it runs in a reasonable amount of time. To create our visualizations, we will use the full dataset. The notebook containing the complete user posts and comments EDA can be found [here](https://github.com/com-480-data-visualization/data-visualization-project-2021-jin-juice/blob/master/eda/milestone1_hashtags_and_terms.ipynb).
 
 ![Top hashtags](../data/top_hashtags.png "Top Hashtags")
 
