@@ -24,7 +24,7 @@ Our visualization goal and design are motivated by the impact social media with 
 
 ### Text
 
-For our exploratory data analysis, we work on a subset of the data so that it runs in a reasonable amount of time. To create our visualizations, we will use the full dataset. The notebook containing the complete user posts and comments EDA can be found [here](https://github.com/com-480-data-visualization/data-visualization-project-2021-jin-juice/blob/master/eda/milestone1_hashtags_and_terms.ipynb).
+For our exploratory data analysis, we work on a randomly selected subset of the data so that it runs in a reasonable amount of time. To create our visualizations, we will use the full dataset. The notebook containing the complete user posts and comments EDA can be found [here](https://github.com/com-480-data-visualization/data-visualization-project-2021-jin-juice/blob/master/eda/milestone1_hashtags_and_terms.ipynb).
 
 ![Top hashtags](../data/top_hashtags.png "Top Hashtags")
 
