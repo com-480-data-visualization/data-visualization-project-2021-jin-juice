@@ -40,7 +40,7 @@ Exploration of the metadata included in videos uploaded to Parler is done in [th
 
 ## Related Work
 
-Due to the importance of the events captured in our dataset, a large amount of work already covers the Capitol riots. The content of the social network, on the other hand, seems to be ignored a bit more. The [SMAT app](https://www.smat-app.com/) allows to search term frequency in different social networks, including Parler.
+Due to the importance of the events captured in our dataset, a large amount of work already covers the Capitol riots. The content of the social network, on the other hand, seems to be ignored a bit more. The [SMAT app](https://www.smat-app.com/) allows to search term frequency in different social networks, including Parler. A [research paper](https://arxiv.org/abs/2101.03820) also did a preliminary analysis of the dataset.
 
 Many newspapers have investigated the videos of the Capitol riots posted to Parler. Quite a few websites were also created to view the videos captured and categorize them either through time or through location. We want to mix the two, and have an interactive map that evolves over time.
 
