@@ -2,7 +2,7 @@
 
 ## Dataset
 
-Our work focuses on a dataset extracted from the now defunct social network Parler. It was a platform similar to Twitter, with users being able to create posts, which users could interact with through comments, upvotes and downvotes. It also used hashtags. Our dataset can be split into 4 main parts.
+Our work focuses on a dataset extracted from the now defunct social network Parler. It was a platform similar to Twitter, with users being able to create posts, which other users could interact with through comments, upvotes and downvotes. It also used hashtags. Our dataset can be split into 4 main parts.
 
 The first part contains 183 million posts and comments made to Parler between August 2018 and January 2021. For each one, we have information such as its text, a timestamp, the number of upvotes and downvotes, and the hashtags it contains.
 
