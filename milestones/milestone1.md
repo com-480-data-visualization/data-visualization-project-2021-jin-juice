@@ -8,9 +8,11 @@ The first part contains 183 million posts and comments made to Parler between Au
 
 The second part provides information about Parler users, such as their biography, when their account was created, their number of followers, the number of people they follow and the number of posts and comments they made. These first two parts are taken from [Zenodo](https://zenodo.org/record/4442460#.YIGHfC0Rpqt), and are explained in greater detail in [this paper](https://arxiv.org/abs/2101.03820).
 
-The last dataset we use contains metadata taken from videos posted to Parler. It was compiled and [posted to GitHub](https://gist.github.com/kylemcdonald/8fdabd6526924012c1f5afe538d7dc09) from the main Parler dataset. For each video included, it contains the time at which the video was created, the latitude and longitude where it was taken, and a unique ID. This unique ID can be used to obtain the video from an [archive of Parler](https://ddosecrets.com/wiki/Parler). Example: To download the video with ID `abcdef`, follow the URL `https://s3.wasabisys.com/ddosecrets-parler/abcdef`. Add the `mp4` extension to the downloaded file, and it can be watched.
+Another dataset contains metadata taken from videos posted to Parler. It was compiled and [posted to GitHub](https://gist.github.com/kylemcdonald/8fdabd6526924012c1f5afe538d7dc09) from the main Parler dataset. For each video included, it contains the time at which the video was created, the latitude and longitude where it was taken, and a unique ID. This unique ID can be used to obtain the video from an [archive of Parler](https://ddosecrets.com/wiki/Parler). Example: To download the video with ID `abcdef`, follow the URL `https://s3.wasabisys.com/ddosecrets-parler/abcdef`. Add the `mp4` extension to the downloaded file, and it can be watched.
 
 The entire dataset is very clean, and requires little to no pre-processing. Because the dataset is very large, we clean it by removing columns we don't need, and filter the dataset to only contain posts from 2020 and 2021.
+
+The last dataset is the archive of all Donald Trump's tweets. This dataset has been scrapped and maintained by a programmer named Brendan Brown ([thetrumparchive.com](https://www.thetrumparchive.com/)). The dataset contains 56571 tweets from 2009-05-04 until [Twitter decided to suspend Donald Trump's account](https://blog.twitter.com/en_us/topics/company/2020/suspension.html) on 2021-01-08. For each tweet, the dataset includes the tweet ID, the text, if the tweet is a retweet, if the tweet has been flagged, the timestamp, the number of likes and retweets.
 
 ## Problematic
 
@@ -33,6 +35,12 @@ Our analysis of the hashtags and term frequencies revealed that indeed the most 
 ![Posts and Comments Num. Time Series](../data/posts_per_day.png "Posts and Comments Num. Time Series")
 
 In addition to that, we analyzed the time series of posts, comments and hashtags numbers. The analysis revealed that their influx incresed drastically around key events such as the 4th of July (Independece Day), the 3rd of November elections, and around the 6th of Januray Capitol Raid.
+
+### Twitter <> Parler
+
+Exploration of the similarities and relationships between Donald Trump's tweet and the discussions of his supporters on Parler. We try to infer how Trump's tweets influence the discussions of his supporters in the Parler app. We are also trying to infer the converse, how Trump adapts his communication based on the polarity of his supporters.
+
+The exploration is done in [this notebook](https://github.com/com-480-data-visualization/data-visualization-project-2021-jin-juice/blob/master/eda/milestone_1_twitter-parler.ipynb)
 
 ### Geodata
 
