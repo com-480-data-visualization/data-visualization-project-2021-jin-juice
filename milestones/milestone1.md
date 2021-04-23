@@ -47,3 +47,5 @@ Many newspapers have investigated the videos of the Capitol riots posted to Parl
 * Pro Publica sorted videos taken near the Capitol during the attacks, and [displayed them](https://projects.propublica.org/parler-capitol-videos/) in a neat timeline.
 * A website called [Capitol Map](https://capitolmap.com) was set up which allows users to select videos based on their location and view them.
 * The [parlervid](https://parlervid.herokuapp.com) websites which maps the videos, and allows to restrict the dates of the videos shown, as well as filtering the ones containing a user ID.
+
+As a source of inspiration for the location data, we find the [One Nation, Tracked](https://www.nytimes.com/interactive/2019/12/19/opinion/location-tracking-cell-phone.html) series by The New York Times, which plots location data in an understandable way, with great visuals.
