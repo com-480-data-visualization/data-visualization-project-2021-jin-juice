@@ -26,17 +26,17 @@ Our visualization goal and design are motivated by the impact social media with 
 
 The notebook containing the complete user posts and comments EDA can be found [here](https://github.com/com-480-data-visualization/data-visualization-project-2021-jin-juice/blob/master/eda/milestone1_hashtags_and_terms.ipynb).
 
-![Top hashtags](./top_hashtags.png "Top Hashtags")
+![Top hashtags](../data/top_hashtags.png "Top Hashtags")
 
 Our analysis of the hashtags and term frequencies revealed that indeed the most popular ones on Parler are related to Trump and the events leading up to the Capitol Raid. The figure above illustrates the frequencies of the top 15 most popular hashtags.
 
-![Posts and Comments Num. Time Series](./posts_per_day.png "Posts and Comments Num. Time Series")
+![Posts and Comments Num. Time Series](../data/posts_per_day.png "Posts and Comments Num. Time Series")
 
 In addition to that, we analyzed the time series of posts, comments and hashtags numbers. The analysis revealed that their influx incresed drastically around key events such as the 4th of July (Independece Day), the 3rd of November elections, and around the 6th of Januray Capitol Raid.
 
 ### Geodata
 
-Exploration of the metadata included in videos uploaded to Parler is done in [this Jupyter Notebook](eda/milestone1_geodata.ipynb). We have location data for 68'284 videos, most of which were taken between 2020 and January 10th, 2021. We find 1225 videos taken around Washington D.C., on the day of the Capitol attack.
+Exploration of the metadata included in videos uploaded to Parler is done in [this Jupyter Notebook](https://github.com/com-480-data-visualization/data-visualization-project-2021-jin-juice/blob/master/eda/milestone1_geodata.ipynb). We have location data for 68'284 videos, most of which were taken between 2020 and January 10th, 2021. We find 1225 videos taken around Washington D.C., on the day of the Capitol attack.
 
 ## Related Work
 
