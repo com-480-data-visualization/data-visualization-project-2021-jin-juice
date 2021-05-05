@@ -8,7 +8,7 @@
 
 ![Stop the steal trend](../data/stopthesteal.png "Stop the steal trend")
 
-We aim at comparing Trump’s behavior and the behavior of his supporters on Parler. We want to visualize the echo chambers of Trump's community, but also the impact of his supporters on his campaign strategy (wording choices echoing Parlers discussions etc). For example, we would like to see how the use of certain hashtags based on Trump's statements exploded on Parlser after he said them. The figure above illustrates the usage trend of the famous #stopthesteal phrase after the 7th september when Jack Posobiec tweeted “#StopTheSteal 2020 is coming…”. Hence, overall we will visualize histograms of the most frequenty used hashtags/words, as well as how their frequency evolves over time. This section would regroup several visualizations e.g word clouds, graphs showing word/hashtags frquencies, time series, etc.
+We aim at comparing Trump’s behavior and the behavior of his supporters on Parler. We want to visualize the echo chambers of Trump's community, but also the impact of his supporters on his campaign strategy (wording choices echoing Parler discussions etc). For example, we would like to see how the use of certain hashtags based on Trump's statements exploded on Parler after he said them. The figure above illustrates the usage trend of the famous #stopthesteal phrase after the 7th september when Jack Posobiec tweeted “#StopTheSteal 2020 is coming…”. Hence, overall we will visualize histograms of the most frequenty used hashtags/words, as well as how their frequency evolves over time. This section would regroup several visualizations e.g word clouds, graphs showing word/hashtags frquencies, time series, etc.
 
 
 ### Sentiment Analysis
