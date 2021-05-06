@@ -1,6 +1,6 @@
 # Milestone 2
 
-## Introduction & Project Goals
+## Introduction & Project Goals
 
 The core of our project is to compare several datasets at different times during the US campaign up until the Capitol riots. We want to illustrate how these datasets interact with each other. An example of this is showing the influence of the Trump campaign’s communication (Trump’s speeches, tweets, ...) on the behavior of his parler supporters, and show the influence of Parler users on Trump’s behavior.
 
