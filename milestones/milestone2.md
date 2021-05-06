@@ -47,7 +47,7 @@ The text visualisations (frequency counts of most popular terms/hashtags, word c
 ## Extra add-ons for the website
 If time permits, we would like to link users to the videos they posted, as we don’t have IDs for Parler posts in the geolocation dataset. This would allow us to determine which users were present at the Capitol riots. We would then analyze the posts made by rioters against the posts made by “normal” users, and see if semantic differences can be found.
 
-Small Parler’s active counter (increasing while scrolling).
+We would also like to implement a visualization of the number of users on Parler, or the number of posts per day, which updates with time while users scroll down the page. This could take a substantial amount of time, so it might not be possible before the end of the semester.
 
 ## General Architecture of the Website
 ![general-architecture](../data/general-architecture.jpg)
