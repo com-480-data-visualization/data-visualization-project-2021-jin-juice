@@ -11,7 +11,7 @@ From our data analysis, it makes sense to focus and anchor all our visualization
     * Positive sentiment on Parler
 * November 3 - Elections & Results
     * From sentimental analysis Parler users start to get negative
-* Capitol riots
+* Capitol riotsmars
     * Location of users in Washington DC
 
 ## Minimum Viable Website
@@ -20,7 +20,7 @@ From our data analysis, it makes sense to focus and anchor all our visualization
 
 ![Stop the steal trend](../data/stopthesteal.png "Stop the steal trend")
 
-We aim to compare Trump’s behavior and the behavior of his supporters on Parler. We want to visualize the echo chambers of Trump's community, but also the impact of his supporters on his campaign strategy (wording choices echoing Parler discussions etc). For example, we would like to see how the use of certain hashtags based on Trump's statements exploded on Parler after he said them. The figure above illustrates the usage trend of the famous #stopthesteal phrase after the 7th september when Jack Posobiec tweeted “#StopTheSteal 2020 is coming…”. Hence, overall we will visualize histograms of the most frequenty used hashtags/words, as well as how their frequency evolves over time. This section would regroup several visualizations e.g word clouds, graphs showing word/hashtags frquencies, time series, etc.
+We aim to compare Trump’s behavior and the behavior of his supporters on Parler. We want to visualize the echo chambers of Trump's community, but also the impact of his supporters on his campaign strategy (wording choices echoing Parler discussions etc). For example, we would like to see how the use of certain hashtags based on Trump's statements exploded on Parler after he said them. The figure above illustrates the usage trend of the famous #stopthesteal phrase after the 7th september when Jack Posobiec tweeted “#StopTheSteal 2020 is coming…”. Hence, overall we will visualize histograms of the most frequently used hashtags/words, as well as how their frequency evolves over time. This section would regroup several visualizations e.g word clouds, graphs showing word/hashtags frquencies, time series, etc.
 
 
 ### Sentiment Analysis
@@ -37,10 +37,12 @@ To show the arrival in Washington, D.C. of some Parler users, we want to show ho
 
 ![Distribution of Video Uploads in 2021](../data/map2021.png "Distribution of Video Uploads in 2021")
 
-We then want to plot an interactive map, showing where videos were uploaded from on the day of the riots. Having done this visualization in Python, we can clearly see the rioters starting near the Washington Monument in the morning, then gradually moving along the Washington Mall towards the United States Capitol Building, and finally entering it. If possible, we want to give users the possibility to view some videos directly on our website, by clicking on individual data points. This might not be possible, as it won't be easy to host videos somewhere and stream them to the website.
+We then want to plot an interactive map, showing where videos were uploaded on the day of the riots. Having done this visualization in Python, we can clearly see the rioters starting near the Washington Monument in the morning, then gradually moving along the Washington Mall towards the United States Capitol Building, and finally entering it. If possible, we want to give users the possibility to view some videos directly on our website, by clicking on individual data points. This might not be possible, as it won't be easy to host videos somewhere and stream them to the website.
 
 ## Tools and Lectures Needed
 Our maps will be implemented in D3.js, and we will need lecture 8 on maps. We also use chapter 14, Geomapping, from the "Interactive Data Visualization for the Web" book.
+
+The text visualisations (frequency counts of most popular terms/hashtags, word clouds, time series, etc) will also be implemented in D3.js and require the materials from lecture 5 (Interactions), lecture 6 (Marks, Channels) and, most importantly, lectured 9 (Text Viz). In addition to that, the entire project requires knowledge from the first 4 lectures about HTML, CSS, Java Script and D3.js to build upon, as well as lecture 7 (Designing Viz) which aided our design decisions. We will also consult all the equivalent chapters from the "Interactive Data Visualization for the Web" and "Visualization and Analysis Design" books.
 
 ## Extra add-ons for the website
 If time permits, we would like to link users to the videos they posted, as we don’t have IDs for Parler posts in the geolocation dataset. This would allow us to determine which users were present at the Capitol riots. We would then analyze the posts made by rioters against the posts made by “normal” users, and see if semantic differences can be found.
