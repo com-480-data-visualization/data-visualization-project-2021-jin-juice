@@ -46,3 +46,6 @@ Our maps will be implemented in D3.js, and we will need lecture 8 on maps. We al
 If time permits, we would like to link users to the videos they posted, as we don’t have IDs for Parler posts in the geolocation dataset. This would allow us to determine which users were present at the Capitol riots. We would then analyze the posts made by rioters against the posts made by “normal” users, and see if semantic differences can be found.
 
 Small Parler’s active counter (increasing while scrolling).
+
+## General Architecture of the Website
+![general-architecture](../data/general-architecture.jpg)
