@@ -48,4 +48,5 @@ If time permits, we would like to link users to the videos they posted, as we do
 Small Parler’s active counter (increasing while scrolling).
 
 ## General Architecture of the Website
+
 ![general-architecture](../data/general-architecture.jpg)
