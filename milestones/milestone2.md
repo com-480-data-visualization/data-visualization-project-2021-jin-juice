@@ -50,9 +50,4 @@ If time permits, we would like to link users to the videos they posted, as we do
 We would also like to implement a visualization of the number of users on Parler, or the number of posts per day, which updates with time while users scroll down the page. This could take a substantial amount of time, so it might not be possible before the end of the semester.
 
 ## General Architecture of the Website
-<<<<<<< HEAD
-
 ![general-architecture](../data/general-architecture.jpg)
-=======
-![general-architecture](../data/general-architecture.jpg)
->>>>>>> ee3d4fe58f7099b3d922ae2a356d8e6b948a6edd
