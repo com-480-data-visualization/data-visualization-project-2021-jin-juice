@@ -25,6 +25,25 @@
 
 **80% of the final grade**
 
+Our website is available [here](https://dataviz.jeanchambras.com/). Google Chrome or Firefox are recommended.
+
+Our repository has the following structure:
+* `eda` directory: contains exploratory data analysis we did in python
+* `milestones` directory: contains our reports for [milestone 1](milestones/milestone1.md),
+[milestone 2](milestones/milestone2.md) as well as our [process book](milestones/process_book.pdf)
+* `data` contains images that were embed in the first two milestones
+* `website` contains the code to run our website (all of it is contained in `src`).
+    * `src/map` contains the code used to create the choropleth map
+    * `src/text` contains the code used to create the sentiment analysis plots
+    * `src/race` contains the code used to create the race plot
+    * `src/circle_map` contains the code used to create the bubble map
+
+To run the website, run from the `website` directory:
+
+```
+yarn install
+yarn start
+```
 
 ## Late policy
 
